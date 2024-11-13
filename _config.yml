@@ -29,10 +29,10 @@ youtube_username: globalmtb
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+- title: Pdf Download
+  icon: far fa-file-pdf
+  url: https://github.com/s0tt/s0tt.github.io/raw/main/pdf/resume_ott.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -58,24 +58,23 @@ content:
         link: github.com/s0tt/chess
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  s0tt/chess
             icon: fab fa-github
             url: github.com/s0tt/chess
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          Project for FIDE chess implementation i started to get familiar with the game rules and the problem of search in a large solution space.
+          Project for FIDE chess implementation I started to get familiar with the game rules and the problem of search in a large solution space.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Robert Bosch GmbH
-        link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Machine Learning Engineer - Video Perception
-        caption: November 2017 - Present
+        caption: April 2023 - Present
         description: Software Engineer for camera video perception in automated driving.
   
   # - title: Education # Title for the section
