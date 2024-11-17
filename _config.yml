@@ -47,7 +47,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Stefan and i am a Machine Learning Engineer mainly interested in Intelligent Systems and Computer Vision.
+  Hi, my name's Stefan and i am a Machine Learning Engineer interested in Intelligent Systems and Computer Vision.
 
 content:
   - title: Experience # Title for the section
@@ -59,13 +59,13 @@ content:
         sub_title: Machine Learning Engineer - Video Perception
         caption: April 2023 - Present
         description: Machine Learning Engineer in camera video perception for automated driving.
-        - layout: left
+      - layout: left
         title: Bosch Center for Artifical Intelligence
         # link_text: boringcompany.com
         sub_title: Master student research intern 
         caption: Jan 2022 - Jun 2022
         description: Research on similarity based long-tailed visual object detection.
-        - layout: left
+      - layout: left
         title: Robert Bosch GmbH
         # link_text: boringcompany.com
         sub_title: Software Engineer - LiDAR base software
