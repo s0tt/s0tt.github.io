@@ -24,7 +24,7 @@ github_username:  s0tt
 linkedin_username: stefanott1
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -50,6 +50,28 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Stefan and i am a Machine Learning Engineer mainly interested in Intelligent Systems and Computer Vision.
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Robert Bosch GmbH
+        # link_text: boringcompany.com
+        sub_title: Machine Learning Engineer - Video Perception
+        caption: April 2023 - Present
+        description: Machine Learning Engineer in camera video perception for automated driving.
+        - layout: left
+        title: Bosch Center for Artifical Intelligence
+        # link_text: boringcompany.com
+        sub_title: Master student research intern 
+        caption: Jan 2022 - Jun 2022
+        description: Research on similarity based long-tailed visual object detection.
+        - layout: left
+        title: Robert Bosch GmbH
+        # link_text: boringcompany.com
+        sub_title: Software Engineer - LiDAR base software
+        caption: Oct 2018 - Sep 2020
+        description: Base software development for LiDAR sensors in automated driving.     
+        
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -66,16 +88,6 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           Project for FIDE chess implementation I started to get familiar with the game rules and the problem of search in a large solution space.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Robert Bosch GmbH
-        # link_text: boringcompany.com
-        sub_title: Machine Learning Engineer - Video Perception
-        caption: April 2023 - Present
-        description: Software Engineer for camera video perception in automated driving.
   
   # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
