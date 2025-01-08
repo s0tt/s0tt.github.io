@@ -9,7 +9,7 @@ version: 2
 name: Stefan Ott
 title: Machine Learning Engineer
 email: s0tt@gmx.de
-website: www.github.com/s0tt/s0tt
+website: https://s0tt.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: True
