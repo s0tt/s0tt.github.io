@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Stefan Ott
-title: Machine Learning Engineer
+title: Senior Machine Learning Engineer
 email: s0tt@gmx.de
-website: www.github.com/s0tt/s0tt
+website: https://s0tt.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: True
@@ -47,7 +47,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Stefan and i am a Machine Learning Engineer interested in Intelligent Systems and Computer Vision.
+  Hi, my name's Stefan and i am a Senior Machine Learning Engineer interested in Intelligent Systems and Computer Vision.
+  You can find my full resume [here](https://github.com/s0tt/s0tt.github.io/raw/main/pdf/resume_ott.pdf).
 
 content:
   - title: Experience # Title for the section
@@ -56,25 +57,64 @@ content:
       - layout: left
         title: Robert Bosch GmbH
         # link_text: boringcompany.com
-        sub_title: Machine Learning Engineer - Video Perception
+        sub_title: Senior Machine Learning Engineer - Video Perception
         caption: April 2023 - Present
         description: Machine Learning Engineer in camera video perception for automated driving.
       - layout: left
         title: Bosch Center for Artifical Intelligence
         # link_text: boringcompany.com
-        sub_title: Master student research intern 
+        sub_title: Research Intern - Object detection
         caption: Jan 2022 - Jun 2022
-        description: Research on similarity based long-tailed visual object detection.
+        description: Research on similarity based long-tailed visual object detection with CNNs.
       - layout: left
         title: Robert Bosch GmbH
         # link_text: boringcompany.com
-        sub_title: Software Engineer - LiDAR base software
+        sub_title: Software Engineer - LiDAR Base Software
         caption: Oct 2018 - Sep 2020
-        description: Base software development for LiDAR sensors in automated driving.     
+        description: Base software development for LiDAR sensors in automated driving.
+      - layout: left
+        title: Robert Bosch GmbH
+        # link_text: boringcompany.com
+        sub_title: Research Intern - Automated Driving
+        caption: Jan 2018 - Aug 2018
+        description: Developed criticality metric for situation analysis in automated driving scenarios.
+      - layout: left
+        title: Robert Bosch GmbH
+        # link_text: boringcompany.com
+        sub_title: Research intern - Language Processing
+        caption: Nay 2017 - Aug 2017
+        description: Fine-tuned interview speech processing systems using Hidden Markov Models.
         
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Active Learning Project
+        link: github.com/s0tt/ActiveLearningProject
+        # link_text: Project Website
+        additional_links:
+          - title:  s0tt/chess
+            icon: fab fa-github
+            url: github.com/s0tt/ActiveLearningProject
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Developed active learning methods for deep learning models using information measures via Monte-Carlo dropout.
+          This project was contributed to the open-source library [modAL](https://github.com/modAL-python/modAL).
+      - layout: top-middle
+        title: Autonomous 1:10 vehicle
+        link: github.com/s0tt/CaroloCar
+        # link_text: Project Website
+        additional_links:
+          - title:  s0tt/CaroloCar
+            icon: fab fa-github
+            url: github.com/s0tt/CaroloCar
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Developed and deployed a 1:10 autonomous vehicle stack including lane processing and driving tasks.
       - layout: top-middle
         title: Chess
         link: github.com/s0tt/chess
