@@ -48,6 +48,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Stefan and i am a Machine Learning Engineer interested in Intelligent Systems and Computer Vision.
+  You can find my full resume [here](https://github.com/s0tt/s0tt.github.io/raw/main/pdf/resume_ott.pdf).
 
 content:
   - title: Experience # Title for the section
@@ -75,6 +76,33 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Active Learning Project
+        link: github.com/s0tt/ActiveLearningProject
+        # link_text: Project Website
+        additional_links:
+          - title:  s0tt/chess
+            icon: fab fa-github
+            url: github.com/s0tt/ActiveLearningProject
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Developed active learning methods for deep learning models using information measures via Monte-Carlo dropout.
+          This project was contributed to the open-source library [modAL](https://github.com/modAL-python/modAL).
+      - layout: top-middle
+        title: Autonomous 1:10 vehicle
+        link: github.com/s0tt/CaroloCar
+        # link_text: Project Website
+        additional_links:
+          - title:  s0tt/CaroloCar
+            icon: fab fa-github
+            url: github.com/s0tt/CaroloCar
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Developed and deployed a 1:10 autonomous vehicle stack including lane processing and driving tasks.
       - layout: top-middle
         title: Chess
         link: github.com/s0tt/chess
